@@ -14,12 +14,12 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 32px;
 }
 
 #mensaje {
-    color: white;
+    color: purple;
     font-size: 20px;
     min-height: 60px;
 }
