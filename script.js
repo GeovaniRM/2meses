@@ -49,7 +49,7 @@ function sorpresa() {
 
 "Eres calma en mis días difíciles,"
 "alegría en mis momentos más simples,"
-'la razón por la que sonrío sin pensar,"
+"la razón por la que sonrío sin pensar,"
 "y el lugar donde siempre quiero estar."
 
 "No sé qué escriba el destino más adelante,"
