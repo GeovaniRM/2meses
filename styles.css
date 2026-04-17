@@ -1,62 +1,61 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
     overflow: hidden;
 }
 
+/* APP */
 .app {
     text-align: center;
-    margin-top: 50px;
-    position: relative;
+    margin-top: 60px;
     z-index: 2;
+    position: relative;
 }
 
 h1 {
     color: white;
-    font-size: 28px;
+    font-size: 32px;
 }
 
-p {
+#mensaje {
     color: white;
-    font-size: 18px;
+    font-size: 20px;
+    min-height: 60px;
 }
 
-button {
-    margin: 10px;
-    padding: 10px 20px;
+/* BOTONES */
+.botones button {
+    margin: 8px;
+    padding: 12px 20px;
     border: none;
-    border-radius: 20px;
-    background: #ff4d6d;
-    color: white;
-    font-size: 16px;
+    border-radius: 25px;
+    background: white;
+    color: #ff4d6d;
+    font-weight: bold;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-button:hover {
-    background: #e63946;
+.botones button:hover {
+    transform: scale(1.1);
 }
 
-/* Corazones animados */
-.corazones::before {
-    content: "💖 💕 💗 💓 💘 💝";
+/* CORAZONES PRO */
+.corazon {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    animation: flotar 10s linear infinite;
-    font-size: 24px;
+    color: pink;
+    animation: flotar 6s linear forwards;
 }
 
 @keyframes flotar {
-    0% { transform: translateY(100%); }
-    100% { transform: translateY(-100%); }
+    0% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(-100vh); opacity: 0; }
 }
 
-/* Modal */
+/* MODAL */
 .modal {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.7);
@@ -71,25 +70,26 @@ button:hover {
 
 .contenido {
     background: white;
-    padding: 20px;
-    border-radius: 15px;
-    width: 80%;
-    max-width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 400px;
     text-align: center;
 }
 
-/* Imágenes */
+.animar {
+    animation: aparecer 0.5s ease;
+}
+
+@keyframes aparecer {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* IMÁGENES */
 .img {
-    width: 80px;
+    width: 90px;
     position: absolute;
 }
 
-.kitty {
-    left: 10%;
-    top: 20%;
-}
-
-.spiderman {
-    right: 10%;
-    top: 20%;
-}
+.kitty { left: 5%; top: 20%; }
+.spiderman { right: 5%; top: 20%; }
