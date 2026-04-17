@@ -35,33 +35,34 @@ function cerrarCarta() {
 
 // SORPRESA
 function sorpresa() {
-    alert("🌹 Dos meses contigo, Ana Karen🌹"
+    alert(`🌹 Dos meses contigo, Ana Karen 🌹
 
-"Ana Karen, desde que llegaste a mi vida,"
-"todo cambió de una forma tan bonita,"
-"como si el mundo tuviera más colores,"
-"como si el tiempo se llenara de amores."
+Ana Karen, desde que llegaste a mi vida,
+todo cambió de una forma tan bonita,
+como si el mundo tuviera más colores,
+como si el tiempo se llenara de amores.
 
-"Dos meses parecen poco en el calendario,"
-"pero contigo han sido extraordinarios,"
-"cada risa, cada mirada sincera,"
-"se ha vuelto mi momento favorito a tu manera."
+Dos meses parecen poco en el calendario,
+pero contigo han sido extraordinarios,
+cada risa, cada mirada sincera,
+se ha vuelto mi momento favorito a tu manera.
 
-"Eres calma en mis días difíciles,"
-"alegría en mis momentos más simples,"
-"la razón por la que sonrío sin pensar,"
-"y el lugar donde siempre quiero estar."
+Eres calma en mis días difíciles,
+alegría en mis momentos más simples,
+la razón por la que sonrío sin pensar,
+y el lugar donde siempre quiero estar.
 
-"No sé qué escriba el destino más adelante,"
-"pero hoy tengo algo muy importante:"
-"que te quiero más de lo que puedo explicar,"
-"y contigo siempre quiero caminar."
+No sé qué escriba el destino más adelante,
+pero hoy tengo algo muy importante:
+que te quiero más de lo que puedo explicar,
+y contigo siempre quiero caminar.
 
-"Gracias por estos dos meses, mi amor,"
-"por cada detalle, por tanto calor,"
-"por ser tú, tan única, tan especial…"
-"Ana Karen, contigo todo es ideal. 💕"
-"💖 Mi amor, prometo hacerte feliz cada día 💖");
+Gracias por estos dos meses, mi amor,
+por cada detalle, por tanto calor,
+por ser tú, tan única, tan especial…
+Ana Karen, contigo todo es ideal. 💕
+
+💖 Mi amor, prometo hacerte feliz cada día 💖`);
 }
 
 // MODO SECRETO 🔐
