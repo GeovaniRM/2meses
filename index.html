@@ -1,1 +1,57 @@
-hh
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Ana Karen ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<audio id="musica" autoplay loop>
+    <source src="music/romantica.mp3" type="audio/mpeg">
+</audio>
+
+<div class="corazones"></div>
+
+<div class="app">
+    <h1>💖 Ana Karen 💖</h1>
+
+    <img src="img/kitty.png" class="img kitty">
+    <img src="img/spiderman.png" class="img spiderman">
+
+    <p id="mensaje"></p>
+
+    <div class="botones">
+        <button onclick="mostrarCarta()">💌 Carta</button>
+        <button onclick="sorpresa()">🎁 Sorpresa</button>
+        <button onclick="modoSecreto()">🔐 Secreto</button>
+    </div>
+</div>
+
+<div id="carta" class="modal oculto">
+    <div class="contenido animar">
+        <h2>💖 Feliz 2 meses 💖</h2>
+
+        <p>
+            Ana Karen, estos dos meses contigo han cambiado mi vida completamente.
+        </p>
+
+        <p>
+            Eres mi felicidad, mi tranquilidad y mi lugar favorito en el mundo.
+        </p>
+
+        <p>
+            Gracias por existir, por elegirme y por hacerme sentir tan especial.
+        </p>
+
+        <p>
+            Te amo muchísimo ❤️ y quiero seguir escribiendo esta historia contigo.
+        </p>
+
+        <button onclick="cerrarCarta()">Cerrar</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
