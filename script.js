@@ -69,7 +69,7 @@ Ana Karen, contigo todo es ideal. 💕
 function modoSecreto() {
     const clave = prompt("Ingresa la clave secreta:");
     
-    if (clave === "teamo") {
+    if (clave === "marinovio") {
         alert( `Mi amor, mi niña, mi princesa, mi marinovia..
 ya no es solo que me gustes o que me hagas feliz.
 
