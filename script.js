@@ -70,7 +70,19 @@ function modoSecreto() {
     const clave = prompt("Ingresa la clave secreta:");
     
     if (clave === "teamo") {
-        alert("💖 Eres el amor de mi vida Ana Karen 💖");
+        alert( `Mi amor, mi niña, mi princesa, mi marinovia..
+ya no es solo que me gustes o que me hagas feliz.
+
+La verdad es que te quiero en mi vida,
+no por un momento… sino para quedarte.
+
+Quiero que seas tú,
+la persona con la que construya todo.
+
+Y aunque suene intenso, es real:
+no te quiero solo ahora…
+te quiero para siempre. ❤️
+    💖 Eres el amor de mi vida Ana Karen 💖`);
     } else {
         alert("❌ Clave incorrecta");
     }
